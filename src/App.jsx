@@ -1,9 +1,7 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import CanvasComponent from './CanvasComponent'
 import Model from './Model'
-
+import StarsCanvas from './Stars'
 
 function App() {
   return (
@@ -15,6 +13,8 @@ function App() {
           <Model path="./earth/scene.gltf" />
         </CanvasComponent>
       </div>
+      
+          <StarsCanvas />
     </>
   )
 }
